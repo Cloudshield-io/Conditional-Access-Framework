@@ -1,0 +1,67 @@
+{
+  "id": "170a94f5-7960-4ffb-b39e-f6af4b96813f",
+  "templateId": null,
+  "displayName": "CA500-CSB-LVL1-BreakTheGlass-IdentityProtection-AnyApp-AnyPlatform-StrengthPasskey-v0.1",
+  "createdDateTime": "2026-08-03T19:27:51.8094847Z",
+  "modifiedDateTime": "2026-08-04T14:00:10.7443448Z",
+  "state": "disabled",
+  "deletedDateTime": null,
+  "partialEnablementStrategy": null,
+  "sessionControls": null,
+  "conditions": {
+    "userRiskLevels": [],
+    "signInRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "platforms": null,
+    "locations": null,
+    "times": null,
+    "deviceStates": null,
+    "devices": null,
+    "clientApplications": null,
+    "agents": null,
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": [],
+      "includeUserActions": [],
+      "includeAuthenticationContextClassReferences": [],
+      "applicationFilter": null
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [
+        "8072f500-ee01-4cc9-accc-230f11be2d5e"
+      ],
+      "excludeGroups": [],
+      "includeRoles": [],
+      "excludeRoles": [],
+      "includeGuestsOrExternalUsers": null,
+      "excludeGuestsOrExternalUsers": null
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [],
+    "customAuthenticationFactors": [],
+    "termsOfUse": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('170a94f5-7960-4ffb-b39e-f6af4b96813f')/grantControls/authenticationStrength/$entity",
+    "authenticationStrength": {
+      "id": "6e301588-db43-4d12-a79b-b2b2cc6cfad5",
+      "createdDateTime": "2026-08-03T19:29:58.2309963Z",
+      "modifiedDateTime": "2026-08-03T19:29:58.2339961Z",
+      "displayName": "Passkey",
+      "description": "",
+      "policyType": "custom",
+      "requirementsSatisfied": "mfa",
+      "allowedCombinations": [
+        "fido2"
+      ],
+      "combinationConfigurations@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('170a94f5-7960-4ffb-b39e-f6af4b96813f')/grantControls/authenticationStrength/combinationConfigurations",
+      "combinationConfigurations": []
+    }
+  }
+}

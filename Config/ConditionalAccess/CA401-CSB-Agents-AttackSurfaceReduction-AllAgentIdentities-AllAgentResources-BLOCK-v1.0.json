@@ -1,0 +1,62 @@
+{
+  "id": "43789506-eb0b-4126-98a6-8aaef3a48782",
+  "templateId": null,
+  "displayName": "CA401-CSB-Agents-AttackSurfaceReduction-AllAgentIdentities-AllAgentResources-BLOCK-v1.0",
+  "createdDateTime": "2026-07-31T04:12:25.5917674Z",
+  "modifiedDateTime": "2026-08-01T20:40:28.2971939Z",
+  "state": "disabled",
+  "deletedDateTime": null,
+  "partialEnablementStrategy": null,
+  "sessionControls": null,
+  "conditions": {
+    "userRiskLevels": [],
+    "signInRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "platforms": null,
+    "locations": null,
+    "times": null,
+    "deviceStates": null,
+    "devices": null,
+    "agents": null,
+    "applications": {
+      "includeApplications": [
+        "AllAgentIdResources"
+      ],
+      "excludeApplications": [],
+      "includeUserActions": [],
+      "includeAuthenticationContextClassReferences": [],
+      "applicationFilter": null
+    },
+    "users": {
+      "includeUsers": [
+        "None"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "excludeGroups": [],
+      "includeRoles": [],
+      "excludeRoles": [],
+      "includeGuestsOrExternalUsers": null,
+      "excludeGuestsOrExternalUsers": null
+    },
+    "clientApplications": {
+      "includeServicePrincipals": [],
+      "includeAgentIdServicePrincipals": [
+        "All"
+      ],
+      "excludeServicePrincipals": []
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('43789506-eb0b-4126-98a6-8aaef3a48782')/grantControls/authenticationStrength/$entity",
+    "authenticationStrength": null
+  }
+}

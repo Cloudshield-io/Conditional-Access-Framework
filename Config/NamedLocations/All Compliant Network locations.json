@@ -1,0 +1,10 @@
+{
+  "@odata.type": "#microsoft.graph.compliantNetworkNamedLocation",
+  "id": "3d46dbda-8382-466a-856d-eb00cbc6b910",
+  "displayName": "All Compliant Network locations",
+  "modifiedDateTime": "2026-07-30T07:40:23.4139826Z",
+  "createdDateTime": "2026-07-30T07:30:15.7133651Z",
+  "deletedDateTime": null,
+  "compliantNetworkType": "allTenantCompliantNetworks",
+  "isTrusted": false
+}

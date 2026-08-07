@@ -1,0 +1,70 @@
+{
+  "id": "b1013188-588f-4b9e-99ab-085c6f8b5779",
+  "templateId": null,
+  "displayName": "CA019-CSB-LVL3-Global-BaseProtection-AnyApp-iOS-RequireCompliantDevice-v0.1",
+  "createdDateTime": "2026-08-04T18:59:29.8415195Z",
+  "modifiedDateTime": "2026-08-05T12:27:44.9680429Z",
+  "state": "disabled",
+  "deletedDateTime": null,
+  "partialEnablementStrategy": null,
+  "sessionControls": null,
+  "conditions": {
+    "userRiskLevels": [],
+    "signInRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "locations": null,
+    "times": null,
+    "deviceStates": null,
+    "devices": null,
+    "clientApplications": null,
+    "agents": null,
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": [],
+      "includeUserActions": [],
+      "includeAuthenticationContextClassReferences": [],
+      "applicationFilter": null
+    },
+    "users": {
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "excludeGroups": [
+        "d52f7cbf-9070-4a09-8c1e-63f28d2b1e3a",
+        "8072f500-ee01-4cc9-accc-230f11be2d5e"
+      ],
+      "includeRoles": [],
+      "excludeRoles": [],
+      "includeGuestsOrExternalUsers": null,
+      "excludeGuestsOrExternalUsers": {
+        "guestOrExternalUserTypes": "internalGuest,b2bCollaborationGuest,b2bCollaborationMember,b2bDirectConnectUser,otherExternalUser,serviceProvider",
+        "externalTenants": {
+          "@odata.type": "#microsoft.graph.conditionalAccessAllExternalTenants",
+          "membershipKind": "all"
+        }
+      }
+    },
+    "platforms": {
+      "includePlatforms": [
+        "iOS"
+      ],
+      "excludePlatforms": []
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "compliantDevice"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('b1013188-588f-4b9e-99ab-085c6f8b5779')/grantControls/authenticationStrength/$entity",
+    "authenticationStrength": null
+  }
+}

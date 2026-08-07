@@ -1,0 +1,6 @@
+.package-sync/
+.tmp/
+.tmp-*
+.DS_Store
+Thumbs.db
+*.log
