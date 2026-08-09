@@ -1,9 +1,9 @@
 {
   "id": "77da6fe7-e265-4fec-8b4a-b7202957023b",
   "templateId": null,
-  "displayName": "CA105-CSB-LVL2-Admins-IdentityProtection-RegisterSecurityInfo-AnyPlatform-StrengthPhishingResistantMFA-v0.1",
+  "displayName": "CA105-CSB-L2-Admins-IdentityProtection-RegisterSecurityInfo-AnyPlatform-StrengthPhishingResistantMFAorTAP-v0.1",
   "createdDateTime": "2026-08-03T08:55:28.216216Z",
-  "modifiedDateTime": "2026-08-09T10:43:16.1802049Z",
+  "modifiedDateTime": "2026-08-09T15:03:42.4572135Z",
   "state": "disabled",
   "deletedDateTime": null,
   "partialEnablementStrategy": null,
@@ -76,17 +76,19 @@
     "termsOfUse": [],
     "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('77da6fe7-e265-4fec-8b4a-b7202957023b')/grantControls/authenticationStrength/$entity",
     "authenticationStrength": {
-      "id": "00000000-0000-0000-0000-000000000004",
-      "createdDateTime": "2021-12-01T08:00:00Z",
-      "modifiedDateTime": "2021-12-01T08:00:00Z",
-      "displayName": "Phishing-resistant MFA",
-      "description": "Phishing-resistant, Passwordless methods for the strongest authentication, such as a FIDO2 security key",
-      "policyType": "builtIn",
+      "id": "6f1ed154-c9eb-4217-9cbe-e3d690bdc8ce",
+      "createdDateTime": "2026-08-09T13:03:56.7003569Z",
+      "modifiedDateTime": "2026-08-09T13:04:53.3522227Z",
+      "displayName": "Phishing-resistant MFA or TAP",
+      "description": "Phishing-resistant MFA or TAP",
+      "policyType": "custom",
       "requirementsSatisfied": "mfa",
       "allowedCombinations": [
         "windowsHelloForBusiness",
         "fido2",
-        "x509CertificateMultiFactor"
+        "x509CertificateMultiFactor",
+        "temporaryAccessPassOneTime",
+        "temporaryAccessPassMultiUse"
       ],
       "combinationConfigurations@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('77da6fe7-e265-4fec-8b4a-b7202957023b')/grantControls/authenticationStrength/combinationConfigurations",
       "combinationConfigurations": []

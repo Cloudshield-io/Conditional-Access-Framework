@@ -8,6 +8,11 @@
       "Type": "AuthenticationStrength"
     },
     {
+      "DisplayName": "Phishing-resistant MFA or TAP",
+      "Id": "6f1ed154-c9eb-4217-9cbe-e3d690bdc8ce",
+      "Type": "AuthenticationStrength"
+    },
+    {
       "DisplayName": "SGU - CSB - CA000-Global-MFA - Exclude",
       "Id": "cf11b4fa-91b3-4ee3-83a8-efa436f3cc02",
       "Type": "Group"

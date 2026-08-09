@@ -1,0 +1,18 @@
+{
+  "id": "6f1ed154-c9eb-4217-9cbe-e3d690bdc8ce",
+  "createdDateTime": "2026-08-09T13:03:56.7003569Z",
+  "modifiedDateTime": "2026-08-09T13:04:53.3522227Z",
+  "displayName": "Phishing-resistant MFA or TAP",
+  "description": "Phishing-resistant MFA or TAP",
+  "policyType": "custom",
+  "requirementsSatisfied": "mfa",
+  "allowedCombinations": [
+    "windowsHelloForBusiness",
+    "fido2",
+    "x509CertificateMultiFactor",
+    "temporaryAccessPassOneTime",
+    "temporaryAccessPassMultiUse"
+  ],
+  "combinationConfigurations@odata.context": "https://graph.microsoft.com/beta/$metadata#policies/authenticationStrengthPolicies('6f1ed154-c9eb-4217-9cbe-e3d690bdc8ce')/combinationConfigurations",
+  "combinationConfigurations": []
+}
