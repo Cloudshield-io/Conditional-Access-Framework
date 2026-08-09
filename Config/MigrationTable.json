@@ -3,18 +3,13 @@
   "Organization": "Cloud Shield ",
   "Objects": [
     {
-      "DisplayName": "Passkey",
+      "DisplayName": "BreakGlass",
       "Id": "6e301588-db43-4d12-a79b-b2b2cc6cfad5",
       "Type": "AuthenticationStrength"
     },
     {
       "DisplayName": "SGU - CSB - CA000-Global-MFA - Exclude",
       "Id": "cf11b4fa-91b3-4ee3-83a8-efa436f3cc02",
-      "Type": "Group"
-    },
-    {
-      "DisplayName": "SGU - CSB - CA001-Global-CountryWhitelist-BLOCK - Exclude",
-      "Id": "f776ba3d-9427-4011-b2de-fed97de2b665",
       "Type": "Group"
     },
     {
@@ -118,11 +113,6 @@
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA100-Admins-StrengthMFA - Exclude",
-      "Id": "eadadc2a-3862-4770-be2f-254256f58d9f",
-      "Type": "Group"
-    },
-    {
       "DisplayName": "SGU - CSB - CA101-Admins-Strength_PhishingResistantMFA - Exclude",
       "Id": "df65a669-5b26-4aea-a1e2-7a496f02da5e",
       "Type": "Group"
@@ -188,6 +178,11 @@
       "Type": "Group"
     },
     {
+      "DisplayName": "SGU - CSB - CA302-ServiceAccounts-ContinuousAccessEvaluation - Exclude",
+      "Id": "1001f059-ad0b-4bf8-b371-eca8290a651a",
+      "Type": "Group"
+    },
+    {
       "DisplayName": "SGU - CSB - CA500-BreakGlassAccounts",
       "Id": "8072f500-ee01-4cc9-accc-230f11be2d5e",
       "Type": "Group"
@@ -198,13 +193,13 @@
       "Type": "NamedLocation"
     },
     {
-      "DisplayName": "ALLOWED COUNTRIES",
-      "Id": "12c0bcee-6571-4f24-81a9-b18577fdc5f0",
+      "DisplayName": "ALLOWED COUNTRIES - SERVICE ACCOUNTS",
+      "Id": "16c50f86-4c85-4dd4-867d-f07ee473234c",
       "Type": "NamedLocation"
     },
     {
-      "DisplayName": "ALLOWED COUNTRIES - SERVICE ACCOUNTS",
-      "Id": "16c50f86-4c85-4dd4-867d-f07ee473234c",
+      "DisplayName": "ALLOWED NETWORKS - SERVICE ACCOUNTS",
+      "Id": "09b5bd10-d71a-4201-be26-1d8f2583b9c4",
       "Type": "NamedLocation"
     },
     {

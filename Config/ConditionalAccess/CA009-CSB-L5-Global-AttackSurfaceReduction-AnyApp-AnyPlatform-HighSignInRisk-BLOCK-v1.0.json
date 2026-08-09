@@ -1,0 +1,63 @@
+{
+  "id": "320e04e9-b3b5-4d74-b20b-86c7f42e84da",
+  "templateId": null,
+  "displayName": "CA009-CSB-L5-Global-AttackSurfaceReduction-AnyApp-AnyPlatform-HighSignInRisk-BLOCK-v1.0",
+  "createdDateTime": "2026-08-05T09:27:27.7378883Z",
+  "modifiedDateTime": "2026-08-09T09:24:24.8500691Z",
+  "state": "disabled",
+  "deletedDateTime": null,
+  "partialEnablementStrategy": null,
+  "sessionControls": null,
+  "conditions": {
+    "userRiskLevels": [],
+    "signInRiskLevels": [
+      "high"
+    ],
+    "clientAppTypes": [
+      "all"
+    ],
+    "platforms": null,
+    "locations": null,
+    "times": null,
+    "deviceStates": null,
+    "devices": null,
+    "clientApplications": null,
+    "agents": null,
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": [],
+      "includeUserActions": [],
+      "includeAuthenticationContextClassReferences": [],
+      "applicationFilter": null
+    },
+    "users": {
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "excludeGroups": [
+        "8072f500-ee01-4cc9-accc-230f11be2d5e",
+        "ffdcbf64-3cae-40c5-bcb5-27f14b741f99"
+      ],
+      "includeRoles": [],
+      "excludeRoles": [
+        "d29b2b05-8046-44ba-8758-1e26182fcf32"
+      ],
+      "includeGuestsOrExternalUsers": null,
+      "excludeGuestsOrExternalUsers": null
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('320e04e9-b3b5-4d74-b20b-86c7f42e84da')/grantControls/authenticationStrength/$entity",
+    "authenticationStrength": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "2f10ecf6-de51-44cf-923c-84492b79ec37",
+  "templateId": null,
+  "displayName": "CA005-CSB-L2-Global-AttackSurfaceReduction-AnyApp-AnyPlatform-DeviceCodeFlow-BLOCK-v1.0",
+  "createdDateTime": "2026-07-31T08:20:19.6011133Z",
+  "modifiedDateTime": "2026-08-09T09:17:50.039064Z",
+  "state": "disabled",
+  "deletedDateTime": null,
+  "partialEnablementStrategy": null,
+  "sessionControls": null,
+  "conditions": {
+    "userRiskLevels": [],
+    "signInRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "platforms": null,
+    "locations": null,
+    "times": null,
+    "deviceStates": null,
+    "devices": null,
+    "clientApplications": null,
+    "agents": null,
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": [],
+      "includeUserActions": [],
+      "includeAuthenticationContextClassReferences": [],
+      "applicationFilter": null
+    },
+    "users": {
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "excludeGroups": [
+        "8072f500-ee01-4cc9-accc-230f11be2d5e",
+        "f55efdcf-e393-4607-a21e-1508056cb2b1"
+      ],
+      "includeRoles": [],
+      "excludeRoles": [],
+      "includeGuestsOrExternalUsers": null,
+      "excludeGuestsOrExternalUsers": null
+    },
+    "authenticationFlows": {
+      "transferMethods": "deviceCodeFlow"
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('2f10ecf6-de51-44cf-923c-84492b79ec37')/grantControls/authenticationStrength/$entity",
+    "authenticationStrength": null
+  }
+}
