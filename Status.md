@@ -41,7 +41,9 @@ CA{N=Persona}{PolicyNumb}
 - Internals, Vi burde også have interals. 
 
 # TODO
-Device Code flow måske nogle admins har brug for det? hvordan tager vi højde for det?
+- [x] Device Code flow måske nogle admins har brug for det? hvordan tager vi højde for det?
+- [] Device Code flow måske nogle admins har brug for det? hvordan tager vi højde for det?
+
 
 # Persona Descriptions: 
 - 000 Global
@@ -66,3 +68,4 @@ This baseline is seperated into differnet levels to show you easily where to sta
     - You are ready to compromise on Workability, you wory more about security than on a user not being able to work for a day or two.
 - Level 5 
     - You are a Large enterprise or a special company requireing maximum foundational security.
+
