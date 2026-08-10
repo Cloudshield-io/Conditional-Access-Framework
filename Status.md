@@ -40,6 +40,9 @@ CA{N=Persona}{PolicyNumb}
 
 - Internals, Vi burde også have interals. 
 
+# TODO
+Device Code flow måske nogle admins har brug for det? hvordan tager vi højde for det?
+
 # Persona Descriptions: 
 - 000 Global
  - These policies in general will apply to all persona groups, see them as catch all polcies, there will be exclusions but those will be very thought out, as these are bare minimum restrictions everyone at least has to follow, then other personas might put on higher restrictions
