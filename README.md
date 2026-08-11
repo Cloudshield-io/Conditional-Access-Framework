@@ -27,10 +27,11 @@ Personas answer **who** a policy protects. The number is a band in the policy na
 | 300 | Service accounts | Automation in a dedicated group; MFA + trusted locations |
 | 400 | Agents | Agent identities and users; restrictive by default |
 | 500 | Break glass | Emergency accounts only; usable in a crisis, tightly controlled |
+| 600 | Users | Standard users; compliant devices and app protection |
 
 ## Levels at a glance
 
-Levels are a **recommended rollout order** — our opinion on what to enable first — not a hard security standard. Policy names use `LVL1`–`LVL4` so you can filter in Entra and Git.
+Levels are a **recommended rollout order** — our opinion on what to enable first — not a hard security standard. Policy names use `L1`–`L5` so you can filter in Entra and Git.
 
 | Level | Meaning |
 |------:|---------|
@@ -38,9 +39,9 @@ Levels are a **recommended rollout order** — our opinion on what to enable fir
 | **2** | Harden security with low impact on standard employees |
 | **3** | Critical identities are covered; tighten users and devices next |
 | **4** | Prefer security over short workability hits |
-| **5** | Maximum foundation for large or high-assurance orgs — no `LVL5` policies in Config yet |
+| **5** | Maximum foundation for large or high-assurance orgs (e.g. guest app / admin-portal blocks) |
 
-Agents (CA400–404) have no `LVL#` tag today. Enable them when those workloads exist — usually after Level 2 or 3.
+Agents (CA400–404) have no `L#` tag today. Enable them when those workloads exist — usually after Level 2 or 3.
 
 ## Deploy this baseline
 
@@ -59,21 +60,21 @@ Agents (CA400–404) have no `LVL#` tag today. Enable them when those workloads 
 7. **Analyze** policy impact in Microsoft Entra ID (sign-in logs / What If / insights).  
 8. **Activate** the policies (On) when the impact looks acceptable.
 
-More detail if you need it: [docs/deploy.md](docs/deploy.md).
+More detail if you need it: [Deploy (wiki)](https://github.com/Cloudshield-io/Conditional-Access-Framework/wiki/Deploy).
 
 ## Optional deeper docs
 
-The sections above are enough to get started. Use these only when you need more detail.
+The sections above are enough to get started. Use the [wiki](https://github.com/Cloudshield-io/Conditional-Access-Framework/wiki) when you need more detail.
 
 | Doc | Description |
 |-----|-------------|
-| [Personas](docs/personas.md) | Who each band protects (000–500) |
-| [Levels](docs/levels.md) | Where to start (1 → 5) |
-| [Policies](docs/policies.md) | Catalog by level and persona |
-| [Deploy](docs/deploy.md) | Full deploy order: import, report-only, analyze, activate |
-| [Exclusions](docs/exclusions.md) | Break glass and per-policy excludes |
-| [Named locations](docs/named-locations.md) | Country / compliant-network lists |
-| [Naming](docs/naming.md) | `CSB`, `LVL#`, versioning |
+| [Personas](https://github.com/Cloudshield-io/Conditional-Access-Framework/wiki/Personas) | Who each band protects (000–600) |
+| [Levels](https://github.com/Cloudshield-io/Conditional-Access-Framework/wiki/Levels) | Where to start (1 → 5) |
+| [Policies](https://github.com/Cloudshield-io/Conditional-Access-Framework/wiki/Policies) | Catalog by level and persona |
+| [Deploy](https://github.com/Cloudshield-io/Conditional-Access-Framework/wiki/Deploy) | Full deploy order: import, report-only, analyze, activate |
+| [Exclusions](https://github.com/Cloudshield-io/Conditional-Access-Framework/wiki/Exclusions) | Break glass and per-policy excludes |
+| [Named locations](https://github.com/Cloudshield-io/Conditional-Access-Framework/wiki/Named-Locations) | Country / compliant-network lists |
+| [Naming](https://github.com/Cloudshield-io/Conditional-Access-Framework/wiki/Naming) | `CSB`, `L#`, versioning |
 
 ## Authors
 
