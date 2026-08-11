@@ -27,18 +27,14 @@ CA000-CSB-LVL1-Global-IdentityProtection-AnyApp-AnyPlatform-StrengthMFA-v1.0
 CA{N=Persona}{PolicyNumb}
 
 ## Policynumb
-00-20 - IdentityProtection
-21-40 - AttackSurfaceReduction
-41-60 - DeviceProtection
-61-70 - SessionProtection
-71-80 - Not yet defined
-81-90 - Not yet defined
-91-99 - Not yet defined
+00-19 - IdentityProtection
+20-39 - AttackSurfaceReduction
+40-59 - DeviceProtection
+60-69 - SessionProtection
+70-79 - Not yet defined
+80-89 - Not yet defined
+90-99 - Not yet defined
 
-# Talk to Philip
-- Baseline er en baseline T1,T2,T3. Men stadig en baseline baseline noget alle ville ku deploye. Måske man kunne lave et repo mere som er sårn mere et CA katalog man kan plukke fra hvor det lidt mere hey! læs lige op på de her inden du bare smadre dem på. 
-
-- Internals, Vi burde også have interals. 
 
 # TODO
 - [x] Device Code flow måske nogle admins har brug for det? hvordan tager vi højde for det?
