@@ -35,12 +35,6 @@ CA{N=Persona}{PolicyNumb}
 80-89 - Not yet defined
 90-99 - Not yet defined
 
-
-# TODO
-- [x] Device Code flow måske nogle admins har brug for det? hvordan tager vi højde for det?
-- [] Device Code flow måske nogle admins har brug for det? hvordan tager vi højde for det?
-
-
 # Persona Descriptions: 
 - 000 Global
  - These policies in general will apply to all persona groups, see them as catch all polcies, there will be exclusions but those will be very thought out, as these are bare minimum restrictions everyone at least has to follow, then other personas might put on higher restrictions
