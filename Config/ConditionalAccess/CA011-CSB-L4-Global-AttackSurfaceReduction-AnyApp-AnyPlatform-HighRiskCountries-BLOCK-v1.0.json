@@ -1,9 +1,9 @@
 {
   "id": "844ccd73-5ecf-4604-8131-612df0b37e2e",
   "templateId": null,
-  "displayName": "CA011-CSB-LVL3-Global-AttackSurfaceReduction-AnyApp-AnyPlatform-HighRiskCountries-BLOCK-v0.1",
+  "displayName": "CA011-CSB-L4-Global-AttackSurfaceReduction-AnyApp-AnyPlatform-HighRiskCountries-BLOCK-v1.0",
   "createdDateTime": "2026-08-03T16:29:36.5025845Z",
-  "modifiedDateTime": "2026-08-05T12:35:35.8541018Z",
+  "modifiedDateTime": "2026-08-10T15:11:32.3582371Z",
   "state": "disabled",
   "deletedDateTime": null,
   "partialEnablementStrategy": null,

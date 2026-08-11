@@ -1,9 +1,9 @@
 {
-  "id": "a47ac803-b0ec-4e54-9600-20c95f5487dc",
+  "id": "9bb2b32d-cfbe-4106-9569-7d834d50d28c",
   "templateId": null,
   "displayName": "CA601-CSB-L3-Users-DeviceProtection-AnyApp-Windows-RequireCompliantDevice-v1.0",
-  "createdDateTime": "2026-08-04T18:46:15.7694635Z",
-  "modifiedDateTime": "2026-08-09T09:39:25.201488Z",
+  "createdDateTime": "2026-08-09T16:36:08.3426299Z",
+  "modifiedDateTime": null,
   "state": "disabled",
   "deletedDateTime": null,
   "partialEnablementStrategy": null,
@@ -89,7 +89,7 @@
     ],
     "customAuthenticationFactors": [],
     "termsOfUse": [],
-    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('a47ac803-b0ec-4e54-9600-20c95f5487dc')/grantControls/authenticationStrength/$entity",
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('9bb2b32d-cfbe-4106-9569-7d834d50d28c')/grantControls/authenticationStrength/$entity",
     "authenticationStrength": null
   }
 }

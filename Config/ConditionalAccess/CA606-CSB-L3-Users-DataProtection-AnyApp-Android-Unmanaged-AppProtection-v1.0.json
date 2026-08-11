@@ -1,9 +1,9 @@
 {
-  "id": "6df037a3-f95c-496f-8b72-9b0854c08df5",
+  "id": "d7d8ab48-889d-4d77-b1e6-ab4c04740a28",
   "templateId": null,
   "displayName": "CA606-CSB-L3-Users-DataProtection-AnyApp-Android-Unmanaged-AppProtection-v1.0",
-  "createdDateTime": "2026-08-05T09:16:32.6568196Z",
-  "modifiedDateTime": "2026-08-09T10:19:16.7870415Z",
+  "createdDateTime": "2026-08-11T05:21:17.3316271Z",
+  "modifiedDateTime": null,
   "state": "disabled",
   "deletedDateTime": null,
   "partialEnablementStrategy": null,
@@ -98,7 +98,7 @@
     ],
     "customAuthenticationFactors": [],
     "termsOfUse": [],
-    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('6df037a3-f95c-496f-8b72-9b0854c08df5')/grantControls/authenticationStrength/$entity",
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('d7d8ab48-889d-4d77-b1e6-ab4c04740a28')/grantControls/authenticationStrength/$entity",
     "authenticationStrength": null
   }
 }

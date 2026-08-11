@@ -1,9 +1,9 @@
 {
-  "id": "eb428afc-573a-4963-b492-6268aca7a349",
+  "id": "50a666ac-5dbf-45fc-b1fc-23d096972a7d",
   "templateId": null,
   "displayName": "CA605-CSB-L3-Users-DataProtection-AnyApp-iOS-Unmanaged-AppProtection-v1.0",
-  "createdDateTime": "2026-08-05T09:06:37.9758934Z",
-  "modifiedDateTime": "2026-08-09T10:16:23.3226397Z",
+  "createdDateTime": "2026-08-09T16:36:12.3010761Z",
+  "modifiedDateTime": null,
   "state": "disabled",
   "deletedDateTime": null,
   "partialEnablementStrategy": null,
@@ -98,7 +98,7 @@
     ],
     "customAuthenticationFactors": [],
     "termsOfUse": [],
-    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('eb428afc-573a-4963-b492-6268aca7a349')/grantControls/authenticationStrength/$entity",
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('50a666ac-5dbf-45fc-b1fc-23d096972a7d')/grantControls/authenticationStrength/$entity",
     "authenticationStrength": null
   }
 }

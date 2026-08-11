@@ -1,9 +1,9 @@
 {
   "id": "71a831df-4cf2-47c6-bb15-5c65380cb5b9",
   "templateId": null,
-  "displayName": "CA206-CSB-LVL4-Guests-IdentityProtection-AnyApp-AnyPlatform-HighUserRisk-BLOCK-v0.1",
+  "displayName": "CA206-CSB-L2-Guests-IdentityProtection-AnyApp-AnyPlatform-HighUserRisk-BLOCK-v1.0",
   "createdDateTime": "2026-08-03T18:46:55.7513438Z",
-  "modifiedDateTime": "2026-08-09T12:14:50.008055Z",
+  "modifiedDateTime": "2026-08-10T15:01:36.4061903Z",
   "state": "disabled",
   "deletedDateTime": null,
   "partialEnablementStrategy": null,

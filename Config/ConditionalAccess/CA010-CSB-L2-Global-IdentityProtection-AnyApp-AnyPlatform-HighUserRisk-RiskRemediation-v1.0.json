@@ -1,9 +1,9 @@
 {
   "id": "a349c0a7-8f15-4df0-84ed-5d8329e9cffd",
   "templateId": null,
-  "displayName": "CA010-CSB-LVL3-Global-IdentityProtection-AnyApp-AnyPlatform-HighUserRisk-RiskRemediation-StrengthPhishingResistantMFA-v0.1",
+  "displayName": "CA010-CSB-L2-Global-IdentityProtection-AnyApp-AnyPlatform-HighUserRisk-RiskRemediation-v1.0",
   "createdDateTime": "2026-08-03T15:48:40.5818512Z",
-  "modifiedDateTime": "2026-08-05T12:35:03.2242939Z",
+  "modifiedDateTime": "2026-08-10T15:00:19.3536122Z",
   "state": "disabled",
   "deletedDateTime": null,
   "partialEnablementStrategy": null,
@@ -42,9 +42,7 @@
         "0e67feb4-55e0-4d7a-9026-f1f87d6120da"
       ],
       "includeRoles": [],
-      "excludeRoles": [
-        "d29b2b05-8046-44ba-8758-1e26182fcf32"
-      ],
+      "excludeRoles": [],
       "includeGuestsOrExternalUsers": null,
       "excludeGuestsOrExternalUsers": null
     }

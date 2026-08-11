@@ -1,9 +1,9 @@
 {
-  "id": "6ae75732-b25d-4bda-84fd-15faf601ff52",
+  "id": "9ca07d71-67f8-4510-980e-62fe89df773b",
   "templateId": null,
-  "displayName": "CA205-CSB-LVL2-Guests-IdentityProtection-AnyApp-AnyPlatform-HighSignInRisk-BLOCK-v0.1",
-  "createdDateTime": "2026-08-03T18:42:25.1486402Z",
-  "modifiedDateTime": "2026-08-05T17:38:55.0120946Z",
+  "displayName": "CA107-CSB-L2-Global-IdentityProtection-AnyApp-AnyPlatform-HighSignInRisk-BLOCK-v1.0",
+  "createdDateTime": "2026-08-03T18:11:10.9782227Z",
+  "modifiedDateTime": "2026-08-10T14:51:53.097632Z",
   "state": "disabled",
   "deletedDateTime": null,
   "partialEnablementStrategy": null,
@@ -33,7 +33,9 @@
       "applicationFilter": null
     },
     "users": {
-      "includeUsers": [],
+      "includeUsers": [
+        "All"
+      ],
       "excludeUsers": [],
       "includeGroups": [],
       "excludeGroups": [
@@ -41,14 +43,8 @@
       ],
       "includeRoles": [],
       "excludeRoles": [],
-      "excludeGuestsOrExternalUsers": null,
-      "includeGuestsOrExternalUsers": {
-        "guestOrExternalUserTypes": "internalGuest,b2bCollaborationGuest,b2bCollaborationMember,b2bDirectConnectUser,otherExternalUser,serviceProvider",
-        "externalTenants": {
-          "@odata.type": "#microsoft.graph.conditionalAccessAllExternalTenants",
-          "membershipKind": "all"
-        }
-      }
+      "includeGuestsOrExternalUsers": null,
+      "excludeGuestsOrExternalUsers": null
     }
   },
   "grantControls": {
@@ -58,7 +54,7 @@
     ],
     "customAuthenticationFactors": [],
     "termsOfUse": [],
-    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('6ae75732-b25d-4bda-84fd-15faf601ff52')/grantControls/authenticationStrength/$entity",
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('9ca07d71-67f8-4510-980e-62fe89df773b')/grantControls/authenticationStrength/$entity",
     "authenticationStrength": null
   }
 }

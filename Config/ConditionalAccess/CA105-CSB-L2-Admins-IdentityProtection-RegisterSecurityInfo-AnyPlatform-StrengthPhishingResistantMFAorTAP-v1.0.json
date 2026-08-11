@@ -1,10 +1,10 @@
 {
   "id": "77da6fe7-e265-4fec-8b4a-b7202957023b",
   "templateId": null,
-  "displayName": "CA105-CSB-L2-Admins-IdentityProtection-RegisterSecurityInfo-AnyPlatform-StrengthPhishingResistantMFAorTAP-v0.1",
+  "displayName": "CA105-CSB-L2-Admins-IdentityProtection-RegisterSecurityInfo-AnyPlatform-StrengthPhishingResistantMFAorTAP-v1.0",
   "createdDateTime": "2026-08-03T08:55:28.216216Z",
-  "modifiedDateTime": "2026-08-09T15:03:42.4572135Z",
-  "state": "disabled",
+  "modifiedDateTime": "2026-08-10T15:18:23.7114406Z",
+  "state": "enabled",
   "deletedDateTime": null,
   "partialEnablementStrategy": null,
   "sessionControls": null,

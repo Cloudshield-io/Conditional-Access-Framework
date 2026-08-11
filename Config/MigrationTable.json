@@ -48,11 +48,6 @@
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA009-Global-HighSignInRisk-BLOCK - Exclude",
-      "Id": "ffdcbf64-3cae-40c5-bcb5-27f14b741f99",
-      "Type": "Group"
-    },
-    {
       "DisplayName": "SGU - CSB - CA010-Global-HighUserRisk-RiskRemediation - Exclude",
       "Id": "0e67feb4-55e0-4d7a-9026-f1f87d6120da",
       "Type": "Group"
@@ -60,11 +55,6 @@
     {
       "DisplayName": "SGU - CSB - CA011-Global-HighRiskCountries-BLOCK - Exclude",
       "Id": "e5089328-eb37-41da-966b-f55fdf2935b8",
-      "Type": "Group"
-    },
-    {
-      "DisplayName": "SGU - CSB - CA012-Global-ContinuousAccessEvaluation - Exclude",
-      "Id": "e90a7ca5-67c7-4133-a694-57d3ca0156f2",
       "Type": "Group"
     },
     {
@@ -130,11 +120,6 @@
     {
       "DisplayName": "SGU - CSB - CA103-Admins-PersistentBrowser - Exclude",
       "Id": "ed49e957-7f88-43a3-8ffb-89d9d95366d7",
-      "Type": "Group"
-    },
-    {
-      "DisplayName": "SGU - CSB - CA104-Admins-ContinuousAccessEvaluation - Exclude",
-      "Id": "0da602e1-280b-4114-879c-211014741ee5",
       "Type": "Group"
     },
     {
