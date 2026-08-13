@@ -1,0 +1,74 @@
+{
+  "id": "ac8ef848-d1b3-41b7-83d3-448207dd6216",
+  "templateId": null,
+  "displayName": "CA020-CSB-L3-Global-SessionProtection-AnyApp-AnyPlatform-Unmanaged-SigninFrequency-v1.0",
+  "createdDateTime": "2026-08-04T09:01:24.4587657Z",
+  "modifiedDateTime": "2026-08-09T09:27:02.0215969Z",
+  "state": "disabled",
+  "deletedDateTime": null,
+  "grantControls": null,
+  "partialEnablementStrategy": null,
+  "conditions": {
+    "userRiskLevels": [],
+    "signInRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "platforms": null,
+    "locations": null,
+    "times": null,
+    "deviceStates": null,
+    "clientApplications": null,
+    "agents": null,
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": [],
+      "includeUserActions": [],
+      "includeAuthenticationContextClassReferences": [],
+      "applicationFilter": null
+    },
+    "users": {
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "excludeGroups": [
+        "8072f500-ee01-4cc9-accc-230f11be2d5e",
+        "282a7cdd-e4b2-4436-9737-0a7814f9b1d3"
+      ],
+      "includeRoles": [],
+      "excludeRoles": [],
+      "includeGuestsOrExternalUsers": null,
+      "excludeGuestsOrExternalUsers": null
+    },
+    "devices": {
+      "includeDeviceStates": [],
+      "excludeDeviceStates": [],
+      "includeDevices": [],
+      "excludeDevices": [],
+      "deviceFilter": {
+        "mode": "exclude",
+        "rule": "device.deviceOwnership -eq \"Company\" -and device.isCompliant -eq True"
+      }
+    }
+  },
+  "sessionControls": {
+    "disableResilienceDefaults": null,
+    "applicationEnforcedRestrictions": null,
+    "cloudAppSecurity": null,
+    "persistentBrowser": null,
+    "continuousAccessEvaluation": null,
+    "secureSignInSession": null,
+    "blockSensitiveActions": null,
+    "signInFrequency": {
+      "value": 1,
+      "type": "hours",
+      "authenticationType": "primaryAndSecondaryAuthentication",
+      "frequencyInterval": "timeBased",
+      "isEnabled": true
+    }
+  }
+}

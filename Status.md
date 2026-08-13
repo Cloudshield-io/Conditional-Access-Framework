@@ -8,8 +8,8 @@ Changed all to Auth Strength MFA
 Renamed all groups to match. 
 Added RegisterSecurity Information CA policy
 
-CA006 - Der skal laves ekstra ting i sharepoint for at den virker 
-CA008 - Guest skal være ekskluderet.
+CA060 - Der skal laves ekstra ting i sharepoint for at den virker 
+CA001 - Guest skal være ekskluderet.
 
 # CA 100 - Admins
 
@@ -19,7 +19,7 @@ Verified Groups
 Added RegisterSecurity Information CA policy
 
 
-# CA200 - Guests
+# CA300 - Guests
 
 # Naming Standard
 CA000-CSB-LVL1-Global-IdentityProtection-AnyApp-AnyPlatform-StrengthMFA-v1.0
@@ -28,21 +28,21 @@ CA{N=Persona}{PolicyNumb}
 
 ## Policynumb
 00-19 - IdentityProtection
-20-39 - AttackSurfaceReduction
-40-59 - DeviceProtection
-60-69 - SessionProtection
-70-79 - Not yet defined
-80-89 - Not yet defined
-90-99 - Not yet defined
+20-29 - SessionProtection
+30-49 - AttackSurfaceReduction
+50-59 - DeviceProtection
+60-69 - DataProtection
+70-99 - Reserved
 
 # Persona Descriptions: 
 - 000 Global
  - These policies in general will apply to all persona groups, see them as catch all polcies, there will be exclusions but those will be very thought out, as these are bare minimum restrictions everyone at least has to follow, then other personas might put on higher restrictions
 - 100 Admins 
-- 200 Guests 
-- 300 Service Accounts
-- 400 Agents
-- 500 Inter
+- 200 Users
+- 300 Guests 
+- 400 Break glass
+- 500 Service Accounts
+- 600 Agents
 
 
 # Baseline Levels
