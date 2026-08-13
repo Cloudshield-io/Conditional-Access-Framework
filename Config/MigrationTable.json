@@ -18,163 +18,178 @@
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA002-Global-LegacyAuthentication-BLOCK - Exclude",
+      "DisplayName": "SGU - CSB - CA030-Global-LegacyAuthentication-BLOCK - Exclude",
       "Id": "2b81c321-e1b0-426f-96cd-ef27435f54bd",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA003-Global-RegisterOrJoin - Exclude",
+      "DisplayName": "SGU - CSB - CA050-Global-RegisterOrJoin - Exclude",
       "Id": "1aff110d-1559-4664-9076-7784a3de43c8",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA004-Global-AuthenticationTransfer-BLOCK - Exclude",
+      "DisplayName": "SGU - CSB - CA031-Global-AuthenticationTransfer-BLOCK - Exclude",
       "Id": "04a5e549-b2c5-4f39-8d5d-236b2b4a62aa",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA005-Global-DeviceCodeFlow-BLOCK - Exclude",
+      "DisplayName": "SGU - CSB - CA032-Global-DeviceCodeFlow-BLOCK - Exclude",
       "Id": "f55efdcf-e393-4607-a21e-1508056cb2b1",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA006-Global-Browser-Unmanaged-AppEnforceRestrictions - Exclude",
+      "DisplayName": "SGU - CSB - CA060-Global-Browser-Unmanaged-AppEnforceRestrictions - Exclude",
       "Id": "7e635fd5-9cb9-4e21-b0f9-72bc314812df",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA008-Global-RegisterSecurityInfo - Exclude",
+      "DisplayName": "SGU - CSB - CA001-Global-RegisterSecurityInfo - Exclude",
       "Id": "1dd73cd5-4abe-41b7-8ce2-557ecf0c7d22",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA010-Global-HighUserRisk-RiskRemediation - Exclude",
+      "DisplayName": "SGU - CSB - CA002-Global-HighUserRisk-RiskRemediation - Exclude",
       "Id": "0e67feb4-55e0-4d7a-9026-f1f87d6120da",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA011-Global-HighRiskCountries-BLOCK - Exclude",
+      "DisplayName": "SGU - CSB - CA034-Global-HighRiskCountries-BLOCK - Exclude",
       "Id": "e5089328-eb37-41da-966b-f55fdf2935b8",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA013-Global-Unmanaged-SigninFrequency - Exclude",
+      "DisplayName": "SGU - CSB - CA020-Global-Unmanaged-SigninFrequency - Exclude",
       "Id": "282a7cdd-e4b2-4436-9737-0a7814f9b1d3",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA014-Global-Unmanaged-PersistentBrowser - Exclude",
+      "DisplayName": "SGU - CSB - CA021-Global-Unmanaged-PersistentBrowser - Exclude",
       "Id": "72e9d283-cf3e-4625-ae53-7de9c78eea84",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA015-Global-BlockUnwantedPlatforms - Exclude",
+      "DisplayName": "SGU - CSB - CA033-Global-BlockUnwantedPlatforms - Exclude",
       "Id": "4494a5a3-55b2-462d-a741-3df6f49401ce",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA016-Global-Windows-RequireCompliantDevice - Exclude",
+      "DisplayName": "SGU - CSB - CA250-Users-Windows-RequireCompliantDevice - Exclude",
       "Id": "a30c9f22-e9c2-4b56-ab7a-a51bb67af2d9",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA017-Global-MacOS-RequireCompliantDevice - Exclude",
+      "DisplayName": "SGU - CSB - CA251-Users-MacOS-RequireCompliantDevice - Exclude",
       "Id": "0aa29c72-0ba7-4e5b-845c-e04d9cf87d96",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA018-Global-Android-RequireCompliantDevice - Exclude",
+      "DisplayName": "SGU - CSB - CA252-Users-Android-RequireCompliantDevice - Exclude",
       "Id": "7c9e7873-70f4-4850-8f34-c976e0233ba0",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA019-Global-IOS-RequireCompliantDevice - Exclude",
+      "DisplayName": "SGU - CSB - CA253-Users-IOS-RequireCompliantDevice - Exclude",
       "Id": "d52f7cbf-9070-4a09-8c1e-63f28d2b1e3a",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA020-Global-iOS-Unmanaged-AppProtection - Exclude",
+      "DisplayName": "SGU - CSB - CA261-Users-iOS-Unmanaged-AppProtection - Exclude",
       "Id": "d9e914f6-da97-4a2f-a3d2-f5c222a82b49",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA021-Global-Android-Unmanaged-AppProtection - Exclude",
+      "DisplayName": "SGU - CSB - CA260-Users-Android-Unmanaged-AppProtection - Exclude",
       "Id": "c14bc35e-ec74-4393-8701-ab81cb9d5202",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA022-Global-AdminPortals-StrengthMFA - Exclude",
+      "DisplayName": "SGU - CSB - CA004-Global-AdminPortals-StrengthMFA - Exclude",
       "Id": "a8b3350f-3243-4dcc-b14b-a5be21c29955",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA101-Admins-Strength_PhishingResistantMFA - Exclude",
+      "DisplayName": "SGU - CSB - CA100-Admins-Strength_PhishingResistantMFA - Exclude",
       "Id": "df65a669-5b26-4aea-a1e2-7a496f02da5e",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA102-Admins-SigninFrequency - Exclude",
+      "DisplayName": "SGU - CSB - CA120-Admins-SigninFrequency - Exclude",
       "Id": "1f57ac24-06d9-48dd-a2c8-da8ec0bcb17c",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA103-Admins-PersistentBrowser - Exclude",
+      "DisplayName": "SGU - CSB - CA121-Admins-PersistentBrowser - Exclude",
       "Id": "ed49e957-7f88-43a3-8ffb-89d9d95366d7",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA105-Admins-RegisterSecurityInfo - Exclude",
+      "DisplayName": "SGU - CSB - CA101-Admins-RegisterSecurityInfo - Exclude",
       "Id": "d410c553-5c30-4874-93d6-db32eed85539",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA200-Guests-StrengthMFA - Exclude",
+      "DisplayName": "SGU - CSB - CA300-Guests-StrengthMFA - Exclude",
       "Id": "09115fc0-9242-4128-83d0-95ebe5f6d6c2",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA201-Guests-NoneGuestApps-BLOCK - Exclude",
+      "DisplayName": "SGU - CSB - CA330-Guests-NoneGuestApps-BLOCK - Exclude",
       "Id": "3b732f03-a7cf-44c9-9091-bc67fc7a6789",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA202-Guests-SigninFrequency - Exclude",
+      "DisplayName": "SGU - CSB - CA320-Guests-SigninFrequency - Exclude",
       "Id": "adbd633d-7f73-49cb-87e8-13b4577ee7aa",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA203-Guests-PersistentBrowser - Exclude",
+      "DisplayName": "SGU - CSB - CA321-Guests-PersistentBrowser - Exclude",
       "Id": "8769deb7-0651-4bc4-8e48-47622597b3da",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA204-Guests-AdminPortals-BLOCK - Exclude",
+      "DisplayName": "SGU - CSB - CA331-Guests-AdminPortals-BLOCK - Exclude",
       "Id": "b799d8ec-9a70-47f1-aa11-f2bae91f6a72",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA300-ServiceAccounts",
+      "DisplayName": "SGU - CSB - CA500-ServiceAccounts",
       "Id": "c9bed456-7224-49f3-9616-b3107ad40d07",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA300-ServiceAccounts-StrengthMFA - Exclude",
+      "DisplayName": "SGU - CSB - CA500-ServiceAccounts-StrengthMFA - Exclude",
       "Id": "8000b780-2e70-4cf0-9413-2e2e173e1a0d",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA301-ServiceAccounts-UntrustedLocations-BLOCK - Exclude",
+      "DisplayName": "SGU - CSB - CA530-ServiceAccounts-UntrustedLocations-BLOCK - Exclude",
       "Id": "6243e580-5a3b-458c-a42b-681141b4a2d5",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA302-ServiceAccounts-ContinuousAccessEvaluation - Exclude",
+      "DisplayName": "SGU - CSB - CA520-ServiceAccounts-ContinuousAccessEvaluation - Exclude",
       "Id": "1001f059-ad0b-4bf8-b371-eca8290a651a",
       "Type": "Group"
     },
     {
-      "DisplayName": "SGU - CSB - CA500-BreakGlassAccounts",
+      "DisplayName": "SGU - CSB - CA400-BreakGlassAccounts",
       "Id": "8072f500-ee01-4cc9-accc-230f11be2d5e",
+      "Type": "Group"
+    },
+    {
+      "DisplayName": "SGU - CSB - CA003-Global-HighSignInRisk-BLOCK - Exclude",
+      "Id": "75f20296-ab3d-473d-b47a-cf82bdb0dd59",
+      "Type": "Group"
+    },
+    {
+      "DisplayName": "SGU - CSB - CA122-Admins-DisableResilience - Exclude",
+      "Id": "5f305a83-d6d2-415f-8f26-0a9f22668fb2",
+      "Type": "Group"
+    },
+    {
+      "DisplayName": "SGU - CSB - CA301-Guests-HighUserRisk-BLOCK - Exclude",
+      "Id": "b4671bac-6563-4455-a9b8-498ea98073c1",
       "Type": "Group"
     },
     {

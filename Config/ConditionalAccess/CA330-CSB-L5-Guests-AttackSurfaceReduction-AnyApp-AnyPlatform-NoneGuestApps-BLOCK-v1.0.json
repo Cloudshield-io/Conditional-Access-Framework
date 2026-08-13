@@ -1,0 +1,66 @@
+{
+  "id": "d0c7deda-e20c-403e-89db-cd6a3545133f",
+  "templateId": null,
+  "displayName": "CA330-CSB-L5-Guests-AttackSurfaceReduction-AnyApp-AnyPlatform-NoneGuestApps-BLOCK-v1.0",
+  "createdDateTime": "2026-07-31T04:42:38.6261344Z",
+  "modifiedDateTime": "2026-08-09T12:05:00.2815436Z",
+  "state": "disabled",
+  "deletedDateTime": null,
+  "partialEnablementStrategy": null,
+  "sessionControls": null,
+  "conditions": {
+    "userRiskLevels": [],
+    "signInRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "platforms": null,
+    "locations": null,
+    "times": null,
+    "deviceStates": null,
+    "devices": null,
+    "clientApplications": null,
+    "agents": null,
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": [
+        "2793995e-0a7d-40d7-bd35-6968ba142197",
+        "Office365"
+      ],
+      "includeUserActions": [],
+      "includeAuthenticationContextClassReferences": [],
+      "applicationFilter": null
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "excludeGroups": [
+        "8072f500-ee01-4cc9-accc-230f11be2d5e",
+        "3b732f03-a7cf-44c9-9091-bc67fc7a6789"
+      ],
+      "includeRoles": [],
+      "excludeRoles": [],
+      "excludeGuestsOrExternalUsers": null,
+      "includeGuestsOrExternalUsers": {
+        "guestOrExternalUserTypes": "internalGuest,b2bCollaborationGuest,b2bCollaborationMember,b2bDirectConnectUser,otherExternalUser",
+        "externalTenants": {
+          "@odata.type": "#microsoft.graph.conditionalAccessAllExternalTenants",
+          "membershipKind": "all"
+        }
+      }
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": [],
+    "authenticationStrength@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies('d0c7deda-e20c-403e-89db-cd6a3545133f')/grantControls/authenticationStrength/$entity",
+    "authenticationStrength": null
+  }
+}

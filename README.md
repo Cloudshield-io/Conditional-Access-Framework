@@ -5,7 +5,7 @@ A Microsoft Entra Conditional Access baseline as code. Policies, groups, and nam
 The baseline is organized by **personas** (who a policy protects) and **levels** (recommended rollout order). Inspired by [j0eyv/ConditionalAccessBaseline](https://github.com/j0eyv/ConditionalAccessBaseline) and Microsoft Conditional Access for Zero Trust guidance.
 
 > [!IMPORTANT]
-> Add emergency access accounts to **`SGU - CSB - CA500-BreakGlassAccounts`** before enabling policies.
+> Add emergency access accounts to **`SGU - CSB - CA400-BreakGlassAccounts`** before enabling policies.
 
 ## Start here
 
@@ -23,11 +23,11 @@ Personas answer **who** a policy protects. The number is a band in the policy na
 |------|---------|------|
 | 000 | Global | Catch-all bare minimum for everyone; exclusions rare and deliberate |
 | 100 | Admins | Privileged roles; stronger MFA and tighter sessions than Global |
-| 200 | Guests | External users; limit apps and session lifetime |
-| 300 | Service accounts | Automation in a dedicated group; MFA + trusted locations |
-| 400 | Agents | Agent identities and users; restrictive by default |
-| 500 | Break glass | Emergency accounts only; usable in a crisis, tightly controlled |
-| 600 | Users | Standard users; compliant devices and app protection |
+| 200 | Users | Standard users; compliant devices and app protection |
+| 300 | Guests | External users; limit apps and session lifetime |
+| 400 | Break glass | Emergency accounts only; usable in a crisis, tightly controlled |
+| 500 | Service accounts | Automation in a dedicated group; MFA + trusted locations |
+| 600 | Agents | Agent identities and users; restrictive by default |
 
 ## Levels at a glance
 
@@ -41,7 +41,7 @@ Levels are a **recommended rollout order** — our opinion on what to enable fir
 | **4** | Prefer security over short workability hits |
 | **5** | Maximum foundation for large or high-assurance orgs (e.g. guest app / admin-portal blocks) |
 
-Agents (CA400–404) have no `L#` tag today. Enable them when those workloads exist — usually after Level 2 or 3.
+Agents (CA600–604) have no `L#` tag today. Enable them when those workloads exist — usually after Level 2 or 3.
 
 ## Deploy this baseline
 
@@ -54,8 +54,8 @@ Agents (CA400–404) have no `L#` tag today. Enable them when those workloads ex
 | **CA Importer** | [ca-importer.mikkeldamgaard.dk](https://ca-importer.mikkeldamgaard.dk) |
 | **IntuneManagement** | [Micke-K/IntuneManagement](https://github.com/Micke-K/IntuneManagement) |
 
-4. Create **break-glass** accounts (or reuse existing ones) and add them to `SGU - CSB - CA500-BreakGlassAccounts`.  
-5. Add automation / service accounts to `SGU - CSB - CA300-ServiceAccounts` if you use that persona.  
+4. Create **break-glass** accounts (or reuse existing ones) and add them to `SGU - CSB - CA400-BreakGlassAccounts`.  
+5. Add automation / service accounts to `SGU - CSB - CA500-ServiceAccounts` if you use that persona.  
 6. Set the Conditional Access policies you want to use to **Report-only**. Leave them there for **at least one month** before activating. Start with **Level 1**, then advance level by level.  
 7. **Analyze** policy impact in Microsoft Entra ID (sign-in logs / What If / insights).  
 8. **Activate** the policies (On) when the impact looks acceptable.
