@@ -37,7 +37,8 @@
       "excludeUsers": [],
       "includeGroups": [],
       "excludeGroups": [
-        "8072f500-ee01-4cc9-accc-230f11be2d5e"
+        "8072f500-ee01-4cc9-accc-230f11be2d5e",
+        "b4671bac-6563-4455-a9b8-498ea98073c1"
       ],
       "includeRoles": [],
       "excludeRoles": [],

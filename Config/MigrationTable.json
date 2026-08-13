@@ -178,6 +178,21 @@
       "Type": "Group"
     },
     {
+      "DisplayName": "SGU - CSB - CA003-Global-HighSignInRisk-BLOCK - Exclude",
+      "Id": "75f20296-ab3d-473d-b47a-cf82bdb0dd59",
+      "Type": "Group"
+    },
+    {
+      "DisplayName": "SGU - CSB - CA122-Admins-DisableResilience - Exclude",
+      "Id": "5f305a83-d6d2-415f-8f26-0a9f22668fb2",
+      "Type": "Group"
+    },
+    {
+      "DisplayName": "SGU - CSB - CA301-Guests-HighUserRisk-BLOCK - Exclude",
+      "Id": "b4671bac-6563-4455-a9b8-498ea98073c1",
+      "Type": "Group"
+    },
+    {
       "DisplayName": "All Compliant Network locations",
       "Id": "3d46dbda-8382-466a-856d-eb00cbc6b910",
       "Type": "NamedLocation"
